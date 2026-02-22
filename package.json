@@ -1,0 +1,15 @@
+{
+  "name": "llm-mysql-guardrails",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple MySQL-backed guardrails gateway that blocks or redacts sensitive financial data before/after an LLM call.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "node test/run-tests.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}
